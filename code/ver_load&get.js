@@ -44,7 +44,7 @@ function getLoadart(code, visible = true) {
             var tags = hb.tag;
             var sed= '';
             tags.forEach(e => {
-                sed = sed + `<span class="badge bg-success">${e}</span>      `
+                sed = sed + `<span class="badge bg-danger">${e}</span>      `
             })
             simple.innerHTML = /*html*/ `
             <div class="card w-75 m-lg-4 m-md-4 shadow" style="height: auto">

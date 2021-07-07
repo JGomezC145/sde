@@ -15,8 +15,8 @@ const storageRef = firebase.storage().ref();
 
 /* const */
 
-const firestoredb = 'Album';
-const imageStorage = 'imagesAlbum/'; // remember last /
-const videoStorage = 'videosAlbum/'; // remember last /
+const firestoredb = 'Pporn';
+const imageStorage = 'imagesPporn/'; // remember last /
+const videoStorage = 'videosPporn/'; // remember last /
 
 

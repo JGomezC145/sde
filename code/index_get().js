@@ -48,7 +48,7 @@ dbART.get().then((querySnapshot) => {
         var tags = hb.tag;
         var sed= '';
         tags.forEach(e => {
-            sed = sed + `<span class="badge bg-success">${e}</span>      `
+            sed = sed + `<span class="badge bg-danger">${e}</span>      `
         })
         if (hb.visible) {
             articontainer.innerHTML += /*html*/`
